@@ -21,16 +21,61 @@ library(gt)
 library(gtExtras)
 library(dplyr)
 
-board <- import(here("data", "psyc101XP.xlsx"))
+board <- import(here("data", "psyc101XP.xlsx")) %>% 
+  arrange(desc(XP))
 
-#tt(board)
+#https://vincentarelbundock.github.io/tinytable/vignettes/plot.html
+#xp_list <- as.list(board$XP)
+#
+#board %>% 
+#  mutate("Bar" = "") %>% 
+#  arrange(desc(XP)) %>% 
+#  tt() %>% 
+#  plot_tt(j=4, fun = "bar", data = xp_list, color = "orange")
+
 
 #https://jthomasmock.github.io/gtExtras/articles/plotting-with-gtExtras.html
 
-board %>% 
+
+arranged_board <- board %>% 
   arrange(desc(XP)) %>% 
+  mutate("Character XP" = 175, 
+         Rank = dense_rank(desc(XP)),
+         Class = as.factor(Class)) %>% 
+  relocate(Rank)
+
+arranged_board %>% 
   gt() %>%
-  gt_plt_bar(column = XP, keep_column = TRUE, width = 35)
+  #gt_plt_bar(column = XP, keep_column = TRUE, width = 35) 
+    gt_plt_bullet(column = "Character XP", target = XP, width = 45,
+               palette = c("magenta", "black")) %>%
+  gt_color_rows(
+     Rank, 
+     pal_type = "discrete", 
+     palette = c("green", "white", "blue")) %>% 
+  gt_badge(Class, 
+           palette = c(
+             "Behavioral Bard"="darkblue",
+             "Social Rogue"="firebrick4",
+             "Dreamweaver Druid"="cornflowerblue",
+             "Neuroknight"="magenta",
+             "Cognitive Wizard"="darkgrey",
+             "Learning Monk"="tan3",
+             "Sensation Sorcerer"="seagreen1",
+             "Psych Mage"="tomato3",
+             "Personality Paladin"="green",
+             "Miss. Ing"="gainsboro")) %>% 
+  tab_header(
+    title = md("**PSYC 101 - XP Rankings**")) %>% 
+  cols_label(
+    Rank = md("**Rank**"), 
+    "Character Name" = md("**Character Name**"),
+    Class = md("**CLass**"), 
+    "Character XP" = md("**Character XP**")
+  )
+
+
+  
 
 
 ```

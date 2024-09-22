@@ -16,16 +16,6 @@ website:
     logo: "images/example_hex.png"
     pinned: true
     align: center
-    tools: 
-      - icon: globe
-        href: https://google.com
-        text: "Your Website"
-      - icon: github
-        href: https://github.com/
-        text: "Your Github"
-      - icon: twitter
-        href: https://twitter.com/
-        text: "Your Twitter"         
 
     style: "docked"
     search: true
