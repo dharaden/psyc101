@@ -13,7 +13,6 @@ This website houses the XP ranking for the psychological travelers in PSYC 101 u
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(rio)
 library(here)
-library(tinytable)
 library(gt)
 library(gtExtras)
 library(dplyr)
@@ -67,7 +66,7 @@ arranged_board %>%
   cols_label(
     Rank = md("**Rank**"), 
     "Character Name" = md("**Character Name**"),
-    Class = md("**CLass**"), 
+    Class = md("**Class**"), 
     "Character XP" = md("**Character XP**")
   )
 
