@@ -40,9 +40,8 @@ jobs:
             any::here
             any::rio
             any::tidyverse
-            any::tinytable
-            any::gt
-            any::gtExtras
+            any::psych
+            any::sjPlot
             # Add more packages as needed
       
       - name: Render and Publish to GitHub Pages

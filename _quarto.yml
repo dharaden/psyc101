@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "PSYC 101 - Leaderboard" 
-  site-url: "https://dharaden.github.io/website_template" 
-  repo-url: https://github.com/dharaden/website_template 
+  site-url: "https://dharaden.github.io/psyc101" 
+  repo-url: https://github.com/dharaden/psyc101 
   repo-actions: [issue]
   
   page-footer:
@@ -13,7 +13,7 @@ website:
     left: "&copy; CC-By Dustin Haraden, 2024"
     
   sidebar:
-    logo: "images/example_hex.png"
+    logo: "images/hex.png"
     pinned: true
     align: center
 
