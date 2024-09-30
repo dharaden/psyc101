@@ -39,7 +39,7 @@ jobs:
             xml2
             here
             rio
-            tidyverse
+            dplyr
             gt
             gtExtras
             # Add more packages as needed

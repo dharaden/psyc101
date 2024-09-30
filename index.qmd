@@ -61,6 +61,9 @@ arranged_board %>%
              "Psych Mage"="tomato3",
              "Personality Paladin"="green",
              "Ms. Ing"="gainsboro")) %>% 
+  cols_width(
+    Rank ~ px(50)
+  ) %>% 
   tab_header(
     title = md("**PSYC 101 - XP Rankings**")) %>% 
   cols_label(
@@ -68,8 +71,7 @@ arranged_board %>%
     "Character Name" = md("**Character Name**"),
     Class = md("**Class**"), 
     "Character XP" = md("**Character XP**")
-  )
-
+  ) 
 
   
 
