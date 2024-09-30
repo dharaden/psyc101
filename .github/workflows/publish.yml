@@ -30,19 +30,23 @@ jobs:
       - name: Install R dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: |
-            knitr
-            rmarkdown
-            downlit
-            xml2
-            here
-            rio
-            dplyr
-            gt
-            gtExtras
-            # Add more packages as needed
+          packages: |
+            any::knitr
+            any::rmarkdown
+            any::downlit
+            any::xml2
+            any::here
+            any::rio
+            any::dplyr
+            any::gt
+            any::gtExtras
         env:
           R_COMPILE_AND_INSTALL_PACKAGES: never
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: List installed packages
+        run: |
+          Rscript -e "installed.packages()[, 'Package']"
 
       - name: Render and Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
