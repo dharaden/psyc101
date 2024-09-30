@@ -17,7 +17,7 @@ library(gt)
 library(gtExtras)
 library(dplyr)
 
-board <- import(here("data", "psyc101XP.xlsx")) %>% 
+board <- import(here("data", "psyc101XP.csv")) %>% 
   arrange(desc(XP))
 
 #https://vincentarelbundock.github.io/tinytable/vignettes/plot.html
@@ -35,7 +35,7 @@ board <- import(here("data", "psyc101XP.xlsx")) %>%
 
 arranged_board <- board %>% 
   arrange(desc(XP)) %>% 
-  mutate("Character XP" = 175, 
+  mutate("Character XP" = max(XP), 
          Rank = dense_rank(desc(XP)),
          Class = as.factor(Class)) %>% 
   relocate(Rank)
@@ -60,7 +60,7 @@ arranged_board %>%
              "Sensation Sorcerer"="seagreen1",
              "Psych Mage"="tomato3",
              "Personality Paladin"="green",
-             "Miss. Ing"="gainsboro")) %>% 
+             "Ms. Ing"="gainsboro")) %>% 
   tab_header(
     title = md("**PSYC 101 - XP Rankings**")) %>% 
   cols_label(
