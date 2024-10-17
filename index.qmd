@@ -37,7 +37,8 @@ arranged_board <- board %>%
   arrange(desc(XP)) %>% 
   mutate("Character XP" = max(XP), 
          Rank = dense_rank(desc(XP)),
-         Class = as.factor(Class)) %>% 
+         Class = as.factor(Class),
+         Badges = Badges) %>% 
   relocate(Rank)
 
 arranged_board %>% 
@@ -70,6 +71,7 @@ arranged_board %>%
     Rank = md("**Rank**"), 
     "Character Name" = md("**Character Name**"),
     Class = md("**Class**"), 
+    Badges = md("**Badges**"),
     "Character XP" = md("**Character XP**")
   ) 
 

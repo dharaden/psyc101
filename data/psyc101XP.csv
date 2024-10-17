@@ -1,83 +1,82 @@
-Character Name,Class,XP
-Captain Theo,Social Rogue,366
-Faye Havengaurd,Personality Paladin,322.95
-Solan Delve,Social Rogue,323
-Leona Guard-El,Psych Mage,320.4
-Lucid Luminous Larry,Behavioral Bard,375
-Brogan Borealis,Psych Mage,335
-DarqDreams Burton,Sensation Sorcerer,365
-Az,Sensation Sorcerer,339
-Paul Nueternouse,Dreamweaver Druid,292
-Ouran Letheron,Psych Mage,279.3
-Liora Mindscape,Social Rogue,371
-Zephyros Cognitus,Behavioral Bard,362
-Ms. Ing,Ms. Ing,253
-NOVA Echo,Neuroknight,350
-Coolguy Sunglassesman,Dreamweaver Druid,330
-Boe,Social Rogue,354
-Elara Elysia,Social Rogue,316
-Michael Metis,Learning Monk,164
-Jasmine Psychesearcher,Social Rogue,349
-FutureSight,Behavioral Bard,363
-Genesis Nightwraith,Personality Paladin,338
-Mingdoki Bard,Behavioral Bard,342
-Nikoli LeCognito,Neuroknight,356
-Enid Hemlock,Personality Paladin,358
-Celeana Sardothein,Personality Paladin,330
-Jay Stromiua,Personality Paladin,345
-Ms. Ing,Ms. Ing,21
-Victor Ludus,Cognitive Wizard,343
-Jean Frued,Neuroknight,371
-Ms. Ing,Ms. Ing,30
-Ignis Brainstorm,Personality Paladin,287.5
-Leora Cognitus,Neuroknight,347
-Bingle Bonegle,Behavioral Bard,347
-Lenora Nightingale,Sensation Sorcerer,366
-Navella Rosé Montenegro,Psych Mage,362
-Sajda Somerfield,Neuroknight,355
-Opa Tippletoe HorcusPorcus,Cognitive Wizard,345
-Gideon Blackwood,Social Rogue,347
-Tim the Goblin,Social Rogue,375
-Keldroc,Psych Mage,343
-Malachi Pensynthe,Cognitive Wizard,293
-Zaril Viere,Learning Monk,373
-Wonder Farr,Behavioral Bard,366
-Acteon Nyx,Psych Mage,335
-Essel Setressa,Cognitive Wizard,321
-Nous Zētēs,Psych Mage,365
-"Alastor Alptraum, the Shrike of Sol Sera",Learning Monk,342
-Aurelius Insight,Sensation Sorcerer,329
-Thalyn Annulore,Neuroknight,351
-Carnylious,Social Rogue,150
-Lora Galson,Psych Mage,338
-Noah Starforge,Behavioral Bard,357
-Aras Shelterscale,Personality Paladin,313
-Koi Fish,Neuroknight,361
-Jung Thoughtweaver,Cognitive Wizard,353
-Welverin,Social Rogue,368
-Taria Glintshade,Behavioral Bard,371
-Azulil Virsum,Social Rogue,317
-Dr. Evelyn Carter,Neuroknight,357
-Simone Reliadiss,Neuroknight,324
-Bug Eyes Viator,Dreamweaver Druid,354
-Throckmorton,Psych Mage,324
-Mnesariana Xylara,Neuroknight,356
-Xaylen Eclips,Cognitive Wizard,338.2
-Archeon Flicker Lite,Psych Mage,293
-Aiden the Cognitive Sage,Cognitive Wizard,343
-Lebron the Paladin,Personality Paladin,366
-Oculus Tytofelis,Sensation Sorcerer,360
-Kage-K Visio,Dreamweaver Druid,357
-Seven Silicon,Neuroknight,370
-Rem Auroras,Dreamweaver Druid,367
-Thalric Lumen,Sensation Sorcerer,360
-Thunder McKing,Social Rogue,350
-Denzeen Shadowstaff,Cognitive Wizard,357
-Soppressata,Cognitive Wizard,353
-Harmonious Horse,Behavioral Bard,351
-Tony Pizza,Dreamweaver Druid,375
-Edward Dreamknight,Dreamweaver Druid,365
-Arius Valenwood,Learning Monk,304
-Cognizar The Cognitive Wizard,Cognitive Wizard,316
-Ithirael Stormwarden the Mindweaver,Psych Mage,375
-Liira Nighthawk,Dreamweaver Druid,375
+"Character Name","Class","XP","Badges"
+"Captain Theo","Social Rogue",396,
+"Faye Havengaurd","Personality Paladin",367.95,
+"Solan Delve","Social Rogue",367,
+"Leona Guard-El","Psych Mage",320.4,
+"Lucid Luminous Larry","Behavioral Bard",418,"Crystal Ball"
+"Brogan Borealis","Psych Mage",379,
+"DarqDreams Burton","Sensation Sorcerer",410,
+"Az","Sensation Sorcerer",383,
+"Paul Nueternouse","Dreamweaver Druid",320,
+"Ouran Letheron","Psych Mage",323.3,
+"Liora Mindscape","Social Rogue",416,
+"Zephyros Cognitus","Behavioral Bard",407,
+"Ms. Ing","Ms. Ing",265.5,
+"NOVA Echo","Neuroknight",350,
+"Coolguy Sunglassesman","Dreamweaver Druid",375,
+"Boe","Social Rogue",398,
+"Elara Elysia","Social Rogue",360,
+"Michael Metis","Learning Monk",206,"Crystal Ball"
+"Jasmine Psychesearcher","Social Rogue",394,
+"FutureSight","Behavioral Bard",378,
+"Genesis Nightwraith","Personality Paladin",383,
+"Mingdoki Bard","Behavioral Bard",387,
+"Nikoli LeCognito","Neuroknight",397,
+"Enid Hemlock","Personality Paladin",403,
+"Celeana Sardothein","Personality Paladin",375,
+"Jay Stromiua","Personality Paladin",345,
+"Ms. Ing","Ms. Ing",203,
+"Victor Ludus","Cognitive Wizard",398,
+"Jean Frued","Neuroknight",400,
+"Ms. Ing","Ms. Ing",30,"Crystal Ball"
+"Ignis Brainstorm","Personality Paladin",317.5,
+"Leora Cognitus","Neuroknight",377,
+"Bingle Bonegle","Behavioral Bard",389,
+"Lenora Nightingale","Sensation Sorcerer",410,
+"Navella Rosé Montenegro","Psych Mage",362,
+"Sajda Somerfield","Neuroknight",366,
+"Opa Tippletoe HorcusPorcus","Cognitive Wizard",389,
+"Gideon Blackwood","Social Rogue",376,
+"Tim the Goblin","Social Rogue",420,"Crystal Ball"
+"Keldroc","Psych Mage",373,
+"Malachi Pensynthe","Cognitive Wizard",337,
+"Zaril Viere","Learning Monk",418,
+"Wonder Farr","Behavioral Bard",396,
+"Acteon Nyx","Psych Mage",375,
+"Essel Setressa","Cognitive Wizard",336,
+"Nous Zētēs","Psych Mage",405,
+"Alastor Alptraum, the Shrike of Sol Sera","Learning Monk",386,
+"Aurelius Insight","Sensation Sorcerer",358,
+"Thalyn Annulore","Neuroknight",366,
+"Lora Galson","Psych Mage",368,
+"Noah Starforge","Behavioral Bard",402,
+"Aras Shelterscale","Personality Paladin",357,
+"Koi Fish","Neuroknight",376,
+"Jung Thoughtweaver","Cognitive Wizard",382,
+"Welverin","Social Rogue",395,
+"Taria Glintshade","Behavioral Bard",412,
+"Azulil Virsum","Social Rogue",362,
+"Dr. Evelyn Carter","Neuroknight",386,
+"Simone Reliadiss","Neuroknight",354,
+"Bug Eyes Viator","Dreamweaver Druid",394,
+"Throckmorton","Psych Mage",324,
+"Mnesariana Xylara","Neuroknight",400,
+"Xaylen Eclips","Cognitive Wizard",378.2,
+"Archeon Flicker Lite","Psych Mage",334,"Crystal Ball"
+"Aiden the Cognitive Sage","Cognitive Wizard",385,
+"Lebron the Paladin","Personality Paladin",381,
+"Oculus Tytofelis","Sensation Sorcerer",405,
+"Kage-K Visio","Dreamweaver Druid",401,
+"Seven Silicon","Neuroknight",415,
+"Rem Auroras","Dreamweaver Druid",410,
+"Thalric Lumen","Sensation Sorcerer",387,"Crystal Ball"
+"Thunder McKing","Social Rogue",395,
+"Denzeen Shadowstaff","Cognitive Wizard",401,
+"Soppressata","Cognitive Wizard",353,"Crystal Ball"
+"Harmonious Horse","Behavioral Bard",394,
+"Tony Pizza","Dreamweaver Druid",420,"Crystal Ball"
+"Edward Dreamknight","Dreamweaver Druid",409,
+"Arius Valenwood","Learning Monk",334,
+"Cognizar The Cognitive Wizard","Cognitive Wizard",361,
+"Ithirael Stormwarden the Mindweaver","Psych Mage",420,
+"Liira Nighthawk","Dreamweaver Druid",420,
